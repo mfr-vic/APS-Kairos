@@ -1,0 +1,1369 @@
+{
+ "geradoPor": "apps/mobile/scripts/gerar-estacoes.mjs",
+ "geradoEm": "2026-10-13",
+ "observacao": "Ordem = a da fonte (1º item = um terminal, último = o outro). coordenada null = não encontrada no GeoSampa. coordenadaDeProjeto = ponto da camada estacao_metro_projetada (estação ausente da camada de operação). Maristela = Vila Cardoso no projeto (decreto 68.607/2024: https://www.al.sp.gov.br/repositorio/legislacao/decreto/2024/decreto-68607-15.06.2024.html).",
+ "linhas": {
+  "L1": {
+   "fonteOrdem": {
+    "nome": "Metrô de São Paulo — Linhas e Estações",
+    "url": "https://www.metro.sp.gov.br/sua-viagem/linhas-estacoes/",
+    "consultadoEm": "2026-10-13"
+   },
+   "fonteCoordenadas": {
+    "nome": "GeoSampa WFS (estacao_metro, estacao_trem, estacao_metro_projetada)",
+    "url": "http://wfs.geosampa.prefeitura.sp.gov.br/geoserver/geoportal/wfs",
+    "consultadoEm": "2026-10-13"
+   },
+   "ordemConferidaNaGeometria": "confere",
+   "estacoes": [
+    {
+     "nome": "Jabaquara-Comitê Paralímpico Brasileiro",
+     "coordenada": {
+      "lat": -23.646483,
+      "lon": -46.640991
+     }
+    },
+    {
+     "nome": "Conceição",
+     "coordenada": {
+      "lat": -23.635378,
+      "lon": -46.641332
+     }
+    },
+    {
+     "nome": "São Judas",
+     "coordenada": {
+      "lat": -23.625752,
+      "lon": -46.640812
+     }
+    },
+    {
+     "nome": "Saúde",
+     "coordenada": {
+      "lat": -23.618609,
+      "lon": -46.639237
+     }
+    },
+    {
+     "nome": "Praça da Árvore",
+     "coordenada": {
+      "lat": -23.610642,
+      "lon": -46.637884
+     }
+    },
+    {
+     "nome": "Santa Cruz",
+     "coordenada": {
+      "lat": -23.598829,
+      "lon": -46.636688
+     }
+    },
+    {
+     "nome": "Vila Mariana",
+     "coordenada": {
+      "lat": -23.589108,
+      "lon": -46.634651
+     }
+    },
+    {
+     "nome": "Ana Rosa",
+     "coordenada": {
+      "lat": -23.581257,
+      "lon": -46.638452
+     }
+    },
+    {
+     "nome": "Paraíso",
+     "coordenada": {
+      "lat": -23.575724,
+      "lon": -46.640774
+     }
+    },
+    {
+     "nome": "Vergueiro-Sebrae",
+     "coordenada": {
+      "lat": -23.568915,
+      "lon": -46.639937
+     }
+    },
+    {
+     "nome": "São Joaquim",
+     "coordenada": {
+      "lat": -23.561911,
+      "lon": -46.638697
+     }
+    },
+    {
+     "nome": "Japão-Liberdade",
+     "coordenada": {
+      "lat": -23.554976,
+      "lon": -46.635734
+     }
+    },
+    {
+     "nome": "Sé",
+     "coordenada": {
+      "lat": -23.551,
+      "lon": -46.633088
+     }
+    },
+    {
+     "nome": "São Bento",
+     "coordenada": {
+      "lat": -23.544084,
+      "lon": -46.634167
+     }
+    },
+    {
+     "nome": "Luz",
+     "coordenada": {
+      "lat": -23.536902,
+      "lon": -46.63367
+     }
+    },
+    {
+     "nome": "Tiradentes",
+     "coordenada": {
+      "lat": -23.530658,
+      "lon": -46.632172
+     }
+    },
+    {
+     "nome": "Armênia",
+     "coordenada": {
+      "lat": -23.5255,
+      "lon": -46.62934
+     }
+    },
+    {
+     "nome": "Portuguesa-Tietê",
+     "coordenada": {
+      "lat": -23.516131,
+      "lon": -46.625161
+     }
+    },
+    {
+     "nome": "Carandiru",
+     "coordenada": {
+      "lat": -23.509276,
+      "lon": -46.624963
+     }
+    },
+    {
+     "nome": "Santana",
+     "coordenada": {
+      "lat": -23.502569,
+      "lon": -46.624773
+     }
+    },
+    {
+     "nome": "Jardim São Paulo-Ayrton Senna",
+     "coordenada": {
+      "lat": -23.492417,
+      "lon": -46.61711
+     }
+    },
+    {
+     "nome": "Parada Inglesa",
+     "coordenada": {
+      "lat": -23.487033,
+      "lon": -46.608821
+     }
+    },
+    {
+     "nome": "Tucuruvi",
+     "coordenada": {
+      "lat": -23.47998,
+      "lon": -46.603151
+     }
+    }
+   ]
+  },
+  "L2": {
+   "fonteOrdem": {
+    "nome": "Metrô de São Paulo — Linhas e Estações",
+    "url": "https://www.metro.sp.gov.br/sua-viagem/linhas-estacoes/",
+    "consultadoEm": "2026-10-13"
+   },
+   "fonteCoordenadas": {
+    "nome": "GeoSampa WFS (estacao_metro, estacao_trem, estacao_metro_projetada)",
+    "url": "http://wfs.geosampa.prefeitura.sp.gov.br/geoserver/geoportal/wfs",
+    "consultadoEm": "2026-10-13"
+   },
+   "ordemConferidaNaGeometria": "confere",
+   "estacoes": [
+    {
+     "nome": "Vila Prudente",
+     "coordenada": {
+      "lat": -23.584326,
+      "lon": -46.581906
+     }
+    },
+    {
+     "nome": "Tamanduateí",
+     "coordenada": {
+      "lat": -23.592938,
+      "lon": -46.589575
+     }
+    },
+    {
+     "nome": "Sacomã",
+     "coordenada": {
+      "lat": -23.601415,
+      "lon": -46.603172
+     }
+    },
+    {
+     "nome": "Alto do Ipiranga",
+     "coordenada": {
+      "lat": -23.602195,
+      "lon": -46.61237
+     }
+    },
+    {
+     "nome": "Santos-Imigrantes",
+     "coordenada": {
+      "lat": -23.595938,
+      "lon": -46.6207
+     }
+    },
+    {
+     "nome": "Chácara Klabin",
+     "coordenada": {
+      "lat": -23.592632,
+      "lon": -46.630486
+     }
+    },
+    {
+     "nome": "Ana Rosa",
+     "coordenada": {
+      "lat": -23.581355,
+      "lon": -46.638627
+     }
+    },
+    {
+     "nome": "Paraíso",
+     "coordenada": {
+      "lat": -23.575768,
+      "lon": -46.641056
+     }
+    },
+    {
+     "nome": "Brigadeiro",
+     "coordenada": {
+      "lat": -23.56888,
+      "lon": -46.647354
+     }
+    },
+    {
+     "nome": "Trianon-Masp",
+     "coordenada": {
+      "lat": -23.563161,
+      "lon": -46.654416
+     }
+    },
+    {
+     "nome": "Consolação",
+     "coordenada": {
+      "lat": -23.557228,
+      "lon": -46.661192
+     }
+    },
+    {
+     "nome": "Clínicas",
+     "coordenada": {
+      "lat": -23.554111,
+      "lon": -46.670762
+     }
+    },
+    {
+     "nome": "S. N. Sra. de Fátima-Sumaré",
+     "coordenada": {
+      "lat": -23.551016,
+      "lon": -46.677538
+     }
+    },
+    {
+     "nome": "Vila Madalena",
+     "coordenada": {
+      "lat": -23.546391,
+      "lon": -46.690855
+     }
+    }
+   ]
+  },
+  "L3": {
+   "fonteOrdem": {
+    "nome": "Metrô de São Paulo — Linhas e Estações",
+    "url": "https://www.metro.sp.gov.br/sua-viagem/linhas-estacoes/",
+    "consultadoEm": "2026-10-13"
+   },
+   "fonteCoordenadas": {
+    "nome": "GeoSampa WFS (estacao_metro, estacao_trem, estacao_metro_projetada)",
+    "url": "http://wfs.geosampa.prefeitura.sp.gov.br/geoserver/geoportal/wfs",
+    "consultadoEm": "2026-10-13"
+   },
+   "ordemConferidaNaGeometria": "confere",
+   "estacoes": [
+    {
+     "nome": "Corinthians-Itaquera",
+     "coordenada": {
+      "lat": -23.542305,
+      "lon": -46.471078
+     }
+    },
+    {
+     "nome": "Artur Alvim",
+     "coordenada": {
+      "lat": -23.540288,
+      "lon": -46.48459
+     }
+    },
+    {
+     "nome": "Patriarca-Vila Ré",
+     "coordenada": {
+      "lat": -23.531183,
+      "lon": -46.501382
+     }
+    },
+    {
+     "nome": "Guilhermina-Esperança",
+     "coordenada": {
+      "lat": -23.529263,
+      "lon": -46.516548
+     }
+    },
+    {
+     "nome": "Vila Matilde",
+     "coordenada": {
+      "lat": -23.531877,
+      "lon": -46.531005
+     }
+    },
+    {
+     "nome": "Penha-Lojas Besni",
+     "coordenada": {
+      "lat": -23.533481,
+      "lon": -46.542349
+     }
+    },
+    {
+     "nome": "Carrão-Assaí Atacadista",
+     "coordenada": {
+      "lat": -23.537851,
+      "lon": -46.564155
+     }
+    },
+    {
+     "nome": "Tatuapé",
+     "coordenada": {
+      "lat": -23.54044,
+      "lon": -46.576284
+     }
+    },
+    {
+     "nome": "Belém",
+     "coordenada": {
+      "lat": -23.543023,
+      "lon": -46.590108
+     }
+    },
+    {
+     "nome": "Bresser-Mooca",
+     "coordenada": {
+      "lat": -23.546476,
+      "lon": -46.60754
+     }
+    },
+    {
+     "nome": "Brás",
+     "coordenada": {
+      "lat": -23.547884,
+      "lon": -46.615909
+     }
+    },
+    {
+     "nome": "Pedro II",
+     "coordenada": {
+      "lat": -23.549716,
+      "lon": -46.625909
+     }
+    },
+    {
+     "nome": "Sé",
+     "coordenada": {
+      "lat": -23.550921,
+      "lon": -46.633135
+     }
+    },
+    {
+     "nome": "Anhangabaú",
+     "coordenada": {
+      "lat": -23.547948,
+      "lon": -46.638886
+     }
+    },
+    {
+     "nome": "República",
+     "coordenada": {
+      "lat": -23.543894,
+      "lon": -46.643149
+     }
+    },
+    {
+     "nome": "Santa Cecília",
+     "coordenada": {
+      "lat": -23.539638,
+      "lon": -46.64888
+     }
+    },
+    {
+     "nome": "Marechal Deodoro",
+     "coordenada": {
+      "lat": -23.533518,
+      "lon": -46.656027
+     }
+    },
+    {
+     "nome": "Palmeiras-Barra Funda",
+     "coordenada": {
+      "lat": -23.525948,
+      "lon": -46.667373
+     }
+    }
+   ]
+  },
+  "L4": {
+   "fonteOrdem": {
+    "nome": "ARTESP API Trilhos (/status/, estacoes.nomes) — operadora ViaQuatro",
+    "url": "https://ccm.artesp.sp.gov.br/metroferroviario/api/status/",
+    "consultadoEm": "2026-10-13",
+    "arquivo": "spikes/artesp/fixture-status.json"
+   },
+   "fonteCoordenadas": {
+    "nome": "GeoSampa WFS (estacao_metro, estacao_trem, estacao_metro_projetada)",
+    "url": "http://wfs.geosampa.prefeitura.sp.gov.br/geoserver/geoportal/wfs",
+    "consultadoEm": "2026-10-13"
+   },
+   "ordemConferidaNaGeometria": "confere",
+   "estacoes": [
+    {
+     "nome": "Luz",
+     "coordenada": {
+      "lat": -23.536155,
+      "lon": -46.634492
+     }
+    },
+    {
+     "nome": "República",
+     "coordenada": {
+      "lat": -23.544582,
+      "lon": -46.643025
+     }
+    },
+    {
+     "nome": "Higienópolis-Mackenzie",
+     "coordenada": {
+      "lat": -23.548952,
+      "lon": -46.652261
+     }
+    },
+    {
+     "nome": "Paulista",
+     "coordenada": {
+      "lat": -23.555076,
+      "lon": -46.662187
+     }
+    },
+    {
+     "nome": "Oscar Freire",
+     "coordenada": {
+      "lat": -23.560518,
+      "lon": -46.672084
+     }
+    },
+    {
+     "nome": "Fradique Coutinho",
+     "coordenada": {
+      "lat": -23.566169,
+      "lon": -46.684165
+     }
+    },
+    {
+     "nome": "Faria Lima",
+     "coordenada": {
+      "lat": -23.567158,
+      "lon": -46.693988
+     }
+    },
+    {
+     "nome": "Pinheiros",
+     "coordenada": {
+      "lat": -23.567183,
+      "lon": -46.701696
+     }
+    },
+    {
+     "nome": "Butantã",
+     "coordenada": {
+      "lat": -23.571993,
+      "lon": -46.70824
+     }
+    },
+    {
+     "nome": "São Paulo-Morumbi",
+     "coordenada": {
+      "lat": -23.586389,
+      "lon": -46.72383
+     }
+    },
+    {
+     "nome": "Vila Sônia",
+     "coordenada": {
+      "lat": -23.593418,
+      "lon": -46.734758
+     }
+    }
+   ]
+  },
+  "L5": {
+   "fonteOrdem": {
+    "nome": "ARTESP API Trilhos (/status/, estacoes.nomes) — operadora ViaMobilidade 5",
+    "url": "https://ccm.artesp.sp.gov.br/metroferroviario/api/status/",
+    "consultadoEm": "2026-10-13",
+    "arquivo": "spikes/artesp/fixture-status.json"
+   },
+   "fonteCoordenadas": {
+    "nome": "GeoSampa WFS (estacao_metro, estacao_trem, estacao_metro_projetada)",
+    "url": "http://wfs.geosampa.prefeitura.sp.gov.br/geoserver/geoportal/wfs",
+    "consultadoEm": "2026-10-13"
+   },
+   "ordemConferidaNaGeometria": "confere",
+   "estacoes": [
+    {
+     "nome": "Capão Redondo",
+     "coordenada": {
+      "lat": -23.659299,
+      "lon": -46.768012
+     }
+    },
+    {
+     "nome": "Campo Limpo",
+     "coordenada": {
+      "lat": -23.649384,
+      "lon": -46.758961
+     }
+    },
+    {
+     "nome": "Vila das Belezas",
+     "coordenada": {
+      "lat": -23.640406,
+      "lon": -46.745736
+     }
+    },
+    {
+     "nome": "Giovanni Gronchi",
+     "coordenada": {
+      "lat": -23.643965,
+      "lon": -46.734096
+     }
+    },
+    {
+     "nome": "Santo Amaro",
+     "coordenada": {
+      "lat": -23.65575,
+      "lon": -46.720934
+     }
+    },
+    {
+     "nome": "Largo Treze",
+     "coordenada": {
+      "lat": -23.654463,
+      "lon": -46.709535
+     }
+    },
+    {
+     "nome": "Adolfo Pinheiro",
+     "coordenada": {
+      "lat": -23.649653,
+      "lon": -46.703884
+     }
+    },
+    {
+     "nome": "Alto da Boa Vista",
+     "coordenada": {
+      "lat": -23.641501,
+      "lon": -46.699056
+     }
+    },
+    {
+     "nome": "Borba Gato",
+     "coordenada": {
+      "lat": -23.633361,
+      "lon": -46.693015
+     }
+    },
+    {
+     "nome": "Brooklin",
+     "coordenada": {
+      "lat": -23.627253,
+      "lon": -46.688028
+     }
+    },
+    {
+     "nome": "Campo Belo",
+     "coordenada": {
+      "lat": -23.618974,
+      "lon": -46.682319
+     }
+    },
+    {
+     "nome": "Eucaliptos",
+     "coordenada": {
+      "lat": -23.610145,
+      "lon": -46.668991
+     }
+    },
+    {
+     "nome": "Moema",
+     "coordenada": {
+      "lat": -23.603329,
+      "lon": -46.661987
+     }
+    },
+    {
+     "nome": "AACD-Servidor",
+     "coordenada": {
+      "lat": -23.597636,
+      "lon": -46.6518
+     }
+    },
+    {
+     "nome": "Hospital São Paulo",
+     "coordenada": {
+      "lat": -23.59816,
+      "lon": -46.64536
+     }
+    },
+    {
+     "nome": "Santa Cruz",
+     "coordenada": {
+      "lat": -23.598475,
+      "lon": -46.637177
+     }
+    },
+    {
+     "nome": "Chácara Klabin",
+     "coordenada": {
+      "lat": -23.592632,
+      "lon": -46.630486
+     }
+    }
+   ]
+  },
+  "L6": {
+   "fonteOrdem": {
+    "nome": "ARTESP API Trilhos (/status/, estacoes.nomes) — operadora Linha Uni",
+    "url": "https://ccm.artesp.sp.gov.br/metroferroviario/api/status/",
+    "consultadoEm": "2026-10-13",
+    "arquivo": "spikes/artesp/fixture-status.json"
+   },
+   "fonteCoordenadas": {
+    "nome": "GeoSampa WFS (estacao_metro, estacao_trem, estacao_metro_projetada)",
+    "url": "http://wfs.geosampa.prefeitura.sp.gov.br/geoserver/geoportal/wfs",
+    "consultadoEm": "2026-10-13"
+   },
+   "ordemConferidaNaGeometria": "sem geometria para conferir",
+   "estacoes": [
+    {
+     "nome": "Brasilândia",
+     "coordenada": {
+      "lat": -23.470414,
+      "lon": -46.698308
+     },
+     "coordenadaDeProjeto": true
+    },
+    {
+     "nome": "Maristela",
+     "coordenada": {
+      "lat": -23.476242,
+      "lon": -46.699273
+     },
+     "coordenadaDeProjeto": true
+    },
+    {
+     "nome": "Itaberaba-Hospital Vila Penteado",
+     "coordenada": {
+      "lat": -23.485427,
+      "lon": -46.69359
+     },
+     "coordenadaDeProjeto": true
+    },
+    {
+     "nome": "João Paulo I",
+     "coordenada": {
+      "lat": -23.493102,
+      "lon": -46.691407
+     },
+     "coordenadaDeProjeto": true
+    },
+    {
+     "nome": "Freguesia do Ó",
+     "coordenada": {
+      "lat": -23.50144,
+      "lon": -46.693852
+     },
+     "coordenadaDeProjeto": true
+    },
+    {
+     "nome": "Santa Marina",
+     "coordenada": {
+      "lat": -23.514507,
+      "lon": -46.691517
+     },
+     "coordenadaDeProjeto": true
+    },
+    {
+     "nome": "Água Branca",
+     "coordenada": {
+      "lat": -23.5216,
+      "lon": -46.687904
+     },
+     "coordenadaDeProjeto": true
+    },
+    {
+     "nome": "SESC-Pompéia",
+     "coordenada": {
+      "lat": -23.527258,
+      "lon": -46.683555
+     },
+     "coordenadaDeProjeto": true
+    },
+    {
+     "nome": "Perdizes",
+     "coordenada": {
+      "lat": -23.532405,
+      "lon": -46.675896
+     },
+     "coordenadaDeProjeto": true
+    },
+    {
+     "nome": "PUC-Cardoso de Almeida",
+     "coordenada": {
+      "lat": -23.538587,
+      "lon": -46.668905
+     },
+     "coordenadaDeProjeto": true
+    },
+    {
+     "nome": "FAAP-Pacaembu",
+     "coordenada": {
+      "lat": -23.546562,
+      "lon": -46.661356
+     },
+     "coordenadaDeProjeto": true
+    },
+    {
+     "nome": "Higienópolis-Mackenzie",
+     "coordenada": {
+      "lat": -23.550577,
+      "lon": -46.65451
+     },
+     "coordenadaDeProjeto": true
+    },
+    {
+     "nome": "14 Bis-Saracura",
+     "coordenada": {
+      "lat": -23.556645,
+      "lon": -46.649248
+     },
+     "coordenadaDeProjeto": true
+    },
+    {
+     "nome": "Bela Vista",
+     "coordenada": {
+      "lat": -23.56174,
+      "lon": -46.644805
+     },
+     "coordenadaDeProjeto": true
+    },
+    {
+     "nome": "São Joaquim",
+     "coordenada": {
+      "lat": -23.562655,
+      "lon": -46.639288
+     },
+     "coordenadaDeProjeto": true
+    }
+   ]
+  },
+  "L7": {
+   "fonteOrdem": {
+    "nome": "ARTESP API Trilhos (/status/, estacoes.nomes) — operadora TIC Trens",
+    "url": "https://ccm.artesp.sp.gov.br/metroferroviario/api/status/",
+    "consultadoEm": "2026-10-13",
+    "arquivo": "spikes/artesp/fixture-status.json"
+   },
+   "fonteCoordenadas": {
+    "nome": "GeoSampa WFS (estacao_metro, estacao_trem, estacao_metro_projetada)",
+    "url": "http://wfs.geosampa.prefeitura.sp.gov.br/geoserver/geoportal/wfs",
+    "consultadoEm": "2026-10-13"
+   },
+   "ordemConferidaNaGeometria": "sem geometria para conferir",
+   "estacoes": [
+    {
+     "nome": "Palmeiras-Barra Funda",
+     "coordenada": {
+      "lat": -23.525584,
+      "lon": -46.667516
+     }
+    },
+    {
+     "nome": "Água Branca",
+     "coordenada": {
+      "lat": -23.521435,
+      "lon": -46.689045
+     }
+    },
+    {
+     "nome": "Lapa",
+     "coordenada": {
+      "lat": -23.517734,
+      "lon": -46.703659
+     }
+    },
+    {
+     "nome": "Piqueri",
+     "coordenada": {
+      "lat": -23.502893,
+      "lon": -46.714866
+     }
+    },
+    {
+     "nome": "Pirituba",
+     "coordenada": {
+      "lat": -23.48852,
+      "lon": -46.726029
+     }
+    },
+    {
+     "nome": "Vila Clarice",
+     "coordenada": {
+      "lat": -23.469903,
+      "lon": -46.744164
+     }
+    },
+    {
+     "nome": "Jaraguá",
+     "coordenada": {
+      "lat": -23.45545,
+      "lon": -46.738417
+     }
+    },
+    {
+     "nome": "Vila Aurora",
+     "coordenada": {
+      "lat": -23.437453,
+      "lon": -46.747371
+     }
+    },
+    {
+     "nome": "Perus",
+     "coordenada": {
+      "lat": -23.404774,
+      "lon": -46.753753
+     }
+    },
+    {
+     "nome": "Caieiras",
+     "coordenada": {
+      "lat": -23.366276,
+      "lon": -46.751636
+     }
+    },
+    {
+     "nome": "Franco da Rocha",
+     "coordenada": {
+      "lat": -23.329637,
+      "lon": -46.726294
+     }
+    },
+    {
+     "nome": "Baltazar Fidélis",
+     "coordenada": {
+      "lat": -23.309892,
+      "lon": -46.723619
+     }
+    },
+    {
+     "nome": "Francisco Morato",
+     "coordenada": {
+      "lat": -23.281685,
+      "lon": -46.742544
+     }
+    },
+    {
+     "nome": "Botujuru",
+     "coordenada": {
+      "lat": -23.235826,
+      "lon": -46.767735
+     }
+    },
+    {
+     "nome": "Campo Limpo Paulista",
+     "coordenada": {
+      "lat": -23.206689,
+      "lon": -46.785291
+     }
+    },
+    {
+     "nome": "Várzea Paulista",
+     "coordenada": {
+      "lat": -23.208987,
+      "lon": -46.829091
+     }
+    },
+    {
+     "nome": "Jundiaí",
+     "coordenada": {
+      "lat": -23.195175,
+      "lon": -46.872284
+     }
+    }
+   ]
+  },
+  "L8": {
+   "fonteOrdem": {
+    "nome": "ARTESP API Trilhos (/status/, estacoes.nomes) — operadora ViaMobilidade 8 e 9",
+    "url": "https://ccm.artesp.sp.gov.br/metroferroviario/api/status/",
+    "consultadoEm": "2026-10-13",
+    "arquivo": "spikes/artesp/fixture-status.json"
+   },
+   "fonteCoordenadas": {
+    "nome": "GeoSampa WFS (estacao_metro, estacao_trem, estacao_metro_projetada)",
+    "url": "http://wfs.geosampa.prefeitura.sp.gov.br/geoserver/geoportal/wfs",
+    "consultadoEm": "2026-10-13"
+   },
+   "ordemConferidaNaGeometria": "sem geometria para conferir",
+   "estacoes": [
+    {
+     "nome": "Júlio Prestes",
+     "coordenada": {
+      "lat": -23.532597,
+      "lon": -46.640984
+     }
+    },
+    {
+     "nome": "Palmeiras-Barra Funda",
+     "coordenada": {
+      "lat": -23.525584,
+      "lon": -46.667516
+     }
+    },
+    {
+     "nome": "Lapa",
+     "coordenada": {
+      "lat": -23.520164,
+      "lon": -46.699005
+     }
+    },
+    {
+     "nome": "Domingos de Moraes",
+     "coordenada": {
+      "lat": -23.51893,
+      "lon": -46.721485
+     }
+    },
+    {
+     "nome": "Imperatriz Leopoldina",
+     "coordenada": {
+      "lat": -23.523754,
+      "lon": -46.737592
+     }
+    },
+    {
+     "nome": "Presidente Altino",
+     "coordenada": {
+      "lat": -23.531224,
+      "lon": -46.761773
+     }
+    },
+    {
+     "nome": "Osasco",
+     "coordenada": {
+      "lat": -23.527747,
+      "lon": -46.775884
+     }
+    },
+    {
+     "nome": "Comandante Sampaio",
+     "coordenada": {
+      "lat": -23.525705,
+      "lon": -46.795869
+     }
+    },
+    {
+     "nome": "Quitaúna",
+     "coordenada": {
+      "lat": -23.522823,
+      "lon": -46.806766
+     }
+    },
+    {
+     "nome": "General Miguel Costa",
+     "coordenada": {
+      "lat": -23.523423,
+      "lon": -46.815695
+     }
+    },
+    {
+     "nome": "Carapicuíba",
+     "coordenada": {
+      "lat": -23.518536,
+      "lon": -46.835417
+     }
+    },
+    {
+     "nome": "Santa Terezinha",
+     "coordenada": {
+      "lat": -23.516579,
+      "lon": -46.84795
+     }
+    },
+    {
+     "nome": "Antônio João",
+     "coordenada": {
+      "lat": -23.516831,
+      "lon": -46.858902
+     }
+    },
+    {
+     "nome": "Barueri",
+     "coordenada": {
+      "lat": -23.512558,
+      "lon": -46.875172
+     }
+    },
+    {
+     "nome": "Jardim Belval",
+     "coordenada": {
+      "lat": -23.513993,
+      "lon": -46.889281
+     }
+    },
+    {
+     "nome": "Jardim Silveira",
+     "coordenada": {
+      "lat": -23.523849,
+      "lon": -46.893597
+     }
+    },
+    {
+     "nome": "Jandira",
+     "coordenada": {
+      "lat": -23.527706,
+      "lon": -46.902379
+     }
+    },
+    {
+     "nome": "Sagrado Coração",
+     "coordenada": {
+      "lat": -23.529143,
+      "lon": -46.917131
+     }
+    },
+    {
+     "nome": "Engenheiro Cardoso",
+     "coordenada": {
+      "lat": -23.535233,
+      "lon": -46.928579
+     }
+    },
+    {
+     "nome": "Itapevi",
+     "coordenada": {
+      "lat": -23.546136,
+      "lon": -46.935689
+     }
+    },
+    {
+     "nome": "Santa Rita",
+     "coordenada": {
+      "lat": -23.544975,
+      "lon": -46.947517
+     }
+    },
+    {
+     "nome": "Ambuitá",
+     "coordenada": {
+      "lat": -23.530168,
+      "lon": -46.972705
+     }
+    },
+    {
+     "nome": "Amador Bueno",
+     "coordenada": {
+      "lat": -23.530508,
+      "lon": -46.983756
+     }
+    }
+   ]
+  },
+  "L9": {
+   "fonteOrdem": {
+    "nome": "ARTESP API Trilhos (/status/, estacoes.nomes) — operadora ViaMobilidade 8 e 9",
+    "url": "https://ccm.artesp.sp.gov.br/metroferroviario/api/status/",
+    "consultadoEm": "2026-10-13",
+    "arquivo": "spikes/artesp/fixture-status.json"
+   },
+   "fonteCoordenadas": {
+    "nome": "GeoSampa WFS (estacao_metro, estacao_trem, estacao_metro_projetada)",
+    "url": "http://wfs.geosampa.prefeitura.sp.gov.br/geoserver/geoportal/wfs",
+    "consultadoEm": "2026-10-13"
+   },
+   "ordemConferidaNaGeometria": "sem geometria para conferir",
+   "estacoes": [
+    {
+     "nome": "Osasco",
+     "coordenada": {
+      "lat": -23.527747,
+      "lon": -46.775884
+     }
+    },
+    {
+     "nome": "Presidente Altino",
+     "coordenada": {
+      "lat": -23.531224,
+      "lon": -46.761773
+     }
+    },
+    {
+     "nome": "Ceasa",
+     "coordenada": {
+      "lat": -23.537419,
+      "lon": -46.742611
+     }
+    },
+    {
+     "nome": "Vila Lobos-Jaguaré",
+     "coordenada": {
+      "lat": -23.54602,
+      "lon": -46.732817
+     }
+    },
+    {
+     "nome": "Cidade Universitária",
+     "coordenada": {
+      "lat": -23.557643,
+      "lon": -46.711777
+     }
+    },
+    {
+     "nome": "Pinheiros",
+     "coordenada": {
+      "lat": -23.566468,
+      "lon": -46.703044
+     }
+    },
+    {
+     "nome": "Hebraica-Rebouças",
+     "coordenada": {
+      "lat": -23.573612,
+      "lon": -46.698792
+     }
+    },
+    {
+     "nome": "Cidade Jardim",
+     "coordenada": {
+      "lat": -23.585524,
+      "lon": -46.691163
+     }
+    },
+    {
+     "nome": "Vila Olímpia",
+     "coordenada": {
+      "lat": -23.593454,
+      "lon": -46.692855
+     }
+    },
+    {
+     "nome": "Berrini",
+     "coordenada": {
+      "lat": -23.605278,
+      "lon": -46.696976
+     }
+    },
+    {
+     "nome": "Morumbi",
+     "coordenada": {
+      "lat": -23.621845,
+      "lon": -46.701822
+     }
+    },
+    {
+     "nome": "Granja Julieta",
+     "coordenada": {
+      "lat": -23.627916,
+      "lon": -46.712288
+     }
+    },
+    {
+     "nome": "João Dias",
+     "coordenada": {
+      "lat": -23.640213,
+      "lon": -46.723843
+     }
+    },
+    {
+     "nome": "Santo Amaro",
+     "coordenada": {
+      "lat": -23.656208,
+      "lon": -46.719184
+     }
+    },
+    {
+     "nome": "Socorro",
+     "coordenada": {
+      "lat": -23.663473,
+      "lon": -46.710909
+     }
+    },
+    {
+     "nome": "Jurubatuba",
+     "coordenada": {
+      "lat": -23.677436,
+      "lon": -46.702128
+     }
+    },
+    {
+     "nome": "Autódromo",
+     "coordenada": {
+      "lat": -23.706557,
+      "lon": -46.688447
+     }
+    },
+    {
+     "nome": "Primavera-Interlagos",
+     "coordenada": {
+      "lat": -23.722712,
+      "lon": -46.691759
+     }
+    },
+    {
+     "nome": "Grajaú",
+     "coordenada": {
+      "lat": -23.736449,
+      "lon": -46.697015
+     }
+    },
+    {
+     "nome": "Bruno Covas/Mendes-Vila Natal",
+     "coordenada": {
+      "lat": -23.754291,
+      "lon": -46.709279
+     }
+    },
+    {
+     "nome": "Varginha",
+     "coordenada": {
+      "lat": -23.770001,
+      "lon": -46.711901
+     }
+    }
+   ]
+  },
+  "L15": {
+   "fonteOrdem": {
+    "nome": "Metrô de São Paulo — Linhas e Estações",
+    "url": "https://www.metro.sp.gov.br/sua-viagem/linhas-estacoes/",
+    "consultadoEm": "2026-10-13"
+   },
+   "fonteCoordenadas": {
+    "nome": "GeoSampa WFS (estacao_metro, estacao_trem, estacao_metro_projetada)",
+    "url": "http://wfs.geosampa.prefeitura.sp.gov.br/geoserver/geoportal/wfs",
+    "consultadoEm": "2026-10-13"
+   },
+   "ordemConferidaNaGeometria": "confere",
+   "estacoes": [
+    {
+     "nome": "Vila Prudente",
+     "coordenada": {
+      "lat": -23.58475,
+      "lon": -46.583788
+     }
+    },
+    {
+     "nome": "Oratório",
+     "coordenada": {
+      "lat": -23.582178,
+      "lon": -46.5619
+     }
+    },
+    {
+     "nome": "São Lucas",
+     "coordenada": {
+      "lat": -23.589295,
+      "lon": -46.544369
+     }
+    },
+    {
+     "nome": "Camilo Haddad",
+     "coordenada": {
+      "lat": -23.595413,
+      "lon": -46.537693
+     }
+    },
+    {
+     "nome": "Vila Tolstói",
+     "coordenada": {
+      "lat": -23.600921,
+      "lon": -46.527095
+     }
+    },
+    {
+     "nome": "Vila União",
+     "coordenada": {
+      "lat": -23.60287,
+      "lon": -46.516113
+     }
+    },
+    {
+     "nome": "Jardim Planalto",
+     "coordenada": {
+      "lat": -23.607391,
+      "lon": -46.507052
+     }
+    },
+    {
+     "nome": "Sapopemba",
+     "coordenada": {
+      "lat": -23.614753,
+      "lon": -46.501427
+     }
+    },
+    {
+     "nome": "Fazenda da Juta",
+     "coordenada": {
+      "lat": -23.611688,
+      "lon": -46.487472
+     }
+    },
+    {
+     "nome": "São Mateus",
+     "coordenada": {
+      "lat": -23.612088,
+      "lon": -46.476682
+     }
+    },
+    {
+     "nome": "Jardim Colonial",
+     "coordenada": {
+      "lat": -23.598997,
+      "lon": -46.468991
+     },
+     "coordenadaDeProjeto": true
+    }
+   ]
+  }
+ }
+}
