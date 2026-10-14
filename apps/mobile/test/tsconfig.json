@@ -1,0 +1,16 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "types": ["jest"]
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "../src/**/*.ts",
+    "../src/**/*.tsx",
+    "../.expo/types/**/*.ts",
+    "../expo-env.d.ts"
+  ],
+  // O tsconfig da raiz exclui "test"; sem redefinir aqui, a exclusão era herdada e os testes NÃO eram checados.
+  "exclude": ["../node_modules"]
+}
