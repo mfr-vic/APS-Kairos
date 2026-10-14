@@ -6,6 +6,7 @@
   "build": {
     "preview": {
       "distribution": "internal",
+      "autoIncrement": true,
       "node": "24.21.0",
       "android": {
         "buildType": "apk"
