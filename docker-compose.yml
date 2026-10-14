@@ -1,0 +1,133 @@
+
+
+services:
+  # PostgreSQL + PostGIS for geospatial queries
+  db:
+    image: postgis/postgis:16-3.4
+    container_name: kairos-db
+    environment:
+      POSTGRES_USER: kairos
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-kairos-dev-123}
+      POSTGRES_DB: kairos
+      POSTGRES_INITDB_ARGS: -c max_connections=50
+    ports:
+      - "${DB_PORT:-5432}:5432"
+    volumes:
+      - kairos-db-data:/var/lib/postgresql/data
+      - ./apps/api/database/init.sql:/docker-entrypoint-initdb.d/00-init.sql
+    healthcheck:
+      # Via TCP: na 1ª inicialização o servidor temporário dos scripts de init só ouve o socket local
+      # e responderia "pronto" antes da hora (a API e a importação pegavam o banco reiniciando).
+      test: ["CMD-SHELL", "pg_isready -h 127.0.0.1 -U kairos -d kairos"]
+      interval: 5s
+      timeout: 10s
+      retries: 10
+      start_period: 120s
+    networks:
+      - kairos-network
+
+  # Fastify API server
+  api:
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile
+    container_name: kairos-api
+    environment:
+      NODE_ENV: ${NODE_ENV:-development}
+      LOG_LEVEL: ${LOG_LEVEL:-info}
+      API_HOST: 0.0.0.0
+      API_PORT: 3000
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_USER: kairos
+      DB_PASSWORD: ${DB_PASSWORD:-kairos-dev-123}
+      DB_NAME: kairos
+      # Provider credentials (from .env)
+      SPTRANS_TOKEN: ${SPTRANS_TOKEN}
+      TOMTOM_KEY: ${TOMTOM_KEY}
+      ARTESP_KEY: ${ARTESP_KEY}
+      DEMO_MODE: ${DEMO_MODE:-false}
+      DEMO_TOKEN: ${DEMO_TOKEN}
+      # RF26/RNF14: segredo do HMAC do hash de trajeto no histórico (vazio = aleatório por boot)
+      HISTORICO_SEGREDO: ${HISTORICO_SEGREDO:-}
+      # RF27 (perfil sd-avancado): vazio = LRU em memória. Para usar o Valkey do worker, suba com
+      # API_CACHE_URL=redis://cache:6379 (ver .env.example); se o cache cair, a API volta ao LRU sozinha.
+      CACHE_URL: ${API_CACHE_URL:-}
+      CACHE_PASSWORD: ${CACHE_PASSWORD:-kairos-cache-123}
+    ports:
+      - "${API_PORT:-3000}:3000"
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - kairos-network
+
+  # RF27: Valkey compartilhado entre a API e o worker (só cache: sem persistência em disco, teto de 64 MB)
+  cache:
+    image: valkey/valkey:7.2-alpine
+    container_name: kairos-cache
+    command:
+      - valkey-server
+      - --requirepass
+      - ${CACHE_PASSWORD:-kairos-cache-123}
+      - --maxmemory
+      - 64mb
+      - --maxmemory-policy
+      - allkeys-lru
+      - --save
+      - ""
+      - --appendonly
+      - "no"
+    environment:
+      REDISCLI_AUTH: ${CACHE_PASSWORD:-kairos-cache-123}
+    ports:
+      - "127.0.0.1:${CACHE_PORT:-6379}:6379"
+    volumes:
+      - kairos-cache-data:/data
+    healthcheck:
+      test: ["CMD-SHELL", "valkey-cli ping | grep -q PONG"]
+      interval: 5s
+      timeout: 10s
+      retries: 5
+    networks:
+      - kairos-network
+    profiles:
+      - sd-avancado
+
+  # RF27: worker que mantém quente o cache compartilhado (clima, ar, Metrô, alagamento). Sem credenciais:
+  # nunca chama ARTESP, Olho Vivo, TomTom, OSRM nem Nominatim.
+  worker:
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile.worker
+    container_name: kairos-worker
+    environment:
+      NODE_ENV: ${NODE_ENV:-development}
+      LOG_LEVEL: ${LOG_LEVEL:-info}
+      CACHE_URL: redis://cache:6379
+      CACHE_PASSWORD: ${CACHE_PASSWORD:-kairos-cache-123}
+      # Alagamento (PostGIS)
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_USER: kairos
+      DB_PASSWORD: ${DB_PASSWORD:-kairos-dev-123}
+      DB_NAME: kairos
+    depends_on:
+      cache:
+        condition: service_healthy
+      db:
+        condition: service_healthy
+    networks:
+      - kairos-network
+    profiles:
+      - sd-avancado
+
+volumes:
+  kairos-db-data:
+    driver: local
+  kairos-cache-data:
+    driver: local
+
+networks:
+  kairos-network:
+    driver: bridge

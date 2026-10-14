@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+dist/
+build/
+.expo/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test coverage reports (T30)
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Temporary
+tmp/
+temp/
+*.tmp
+
+# Mobile build artifacts
+.apk
+*.apk
+*.ipa
+
+# Project specific
+credentials.json
+.env.production
+secrets/
