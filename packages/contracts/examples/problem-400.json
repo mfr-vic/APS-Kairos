@@ -1,0 +1,9 @@
+{
+  "type": "https://kairos.local/problems/validation",
+  "title": "Entrada inválida",
+  "status": 400,
+  "detail": "trajeto.origem.lat fora do intervalo",
+  "instance": "/v1/briefings",
+  "code": "VALIDATION_ERROR",
+  "errors": [{ "path": "trajeto.origem.lat", "message": "Number must be less than or equal to 90" }]
+}

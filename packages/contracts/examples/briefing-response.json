@@ -1,0 +1,159 @@
+{
+  "briefingId": "3f1c2a9e-8b7d-4c6e-9f2a-1d4b5c6e7f80",
+  "geradoEm": "2026-10-10T08:08:00-03:00",
+  "veredito": "FAVORAVEL",
+  "motivos": [],
+  "janelaMeteorologica": {
+    "inicio": "2026-10-10T09:00:00-03:00",
+    "fim": "2026-10-10T10:00:00-03:00"
+  },
+  "confianca": {
+    "nivel": "ALTA",
+    "explicacao": "Todos os dados do trajeto estão atualizados"
+  },
+  "observacoes": [
+    {
+      "dimension": "weather",
+      "source": "open-meteo",
+      "status": "fresh",
+      "observedAt": "2026-10-10T08:00:00-03:00",
+      "fetchedAt": "2026-10-10T08:07:55-03:00",
+      "ttlSeconds": 900,
+      "value": {
+        "atual": {
+          "temperaturaC": 21.6,
+          "precipitacaoMm": 0,
+          "ventoKmH": null,
+          "codigoTempo": 1,
+          "sensacaoC": null,
+          "umidadePct": null,
+          "uv": null
+        },
+        "sol": null,
+        "hoje": null,
+        "horas": [
+          {
+            "hora": "2026-10-10T08:00:00-03:00",
+            "precipitacaoMm": 0,
+            "probabilidadePrecipitacao": 7,
+            "temperaturaC": 21.6
+          },
+          {
+            "hora": "2026-10-10T09:00:00-03:00",
+            "precipitacaoMm": 0,
+            "probabilidadePrecipitacao": 8,
+            "temperaturaC": 24.4
+          },
+          {
+            "hora": "2026-10-10T10:00:00-03:00",
+            "precipitacaoMm": 0,
+            "probabilidadePrecipitacao": 9,
+            "temperaturaC": 26.3
+          },
+          {
+            "hora": "2026-10-10T11:00:00-03:00",
+            "precipitacaoMm": 0,
+            "probabilidadePrecipitacao": 10,
+            "temperaturaC": 27.8
+          },
+          {
+            "hora": "2026-10-10T12:00:00-03:00",
+            "precipitacaoMm": 0.1,
+            "probabilidadePrecipitacao": 18,
+            "temperaturaC": 28.7
+          },
+          {
+            "hora": "2026-10-10T13:00:00-03:00",
+            "precipitacaoMm": 0.2,
+            "probabilidadePrecipitacao": 38,
+            "temperaturaC": 29
+          },
+          {
+            "hora": "2026-10-10T14:00:00-03:00",
+            "precipitacaoMm": 0,
+            "probabilidadePrecipitacao": 64,
+            "temperaturaC": 29.1
+          }
+        ]
+      }
+    },
+    {
+      "dimension": "air",
+      "source": "open-meteo-air-quality",
+      "status": "fresh",
+      "observedAt": "2026-10-10T08:00:00-03:00",
+      "fetchedAt": "2026-10-10T08:07:56-03:00",
+      "ttlSeconds": 3600,
+      "value": {
+        "pm25": 44.6,
+        "pm25Media24h": null,
+        "indice": 89,
+        "escalaIndice": "US_AQI",
+        "faixa": null,
+        "estimativaDeModelo": true
+      }
+    },
+    {
+      "dimension": "bus",
+      "source": "sptrans-olhovivo",
+      "status": "fresh",
+      "observedAt": "2026-10-10T08:07:00-03:00",
+      "fetchedAt": "2026-10-10T08:07:06-03:00",
+      "ttlSeconds": 30,
+      "value": {
+        "codigoParada": 260016861,
+        "nomeParada": "CAIO PRADO B/C",
+        "linhas": [
+          {
+            "codigoLinha": 609,
+            "letreiro": "875A-10",
+            "proximaChegada": "2026-10-10T08:20:00-03:00",
+            "minutosAteChegada": 13,
+            "veiculos": 2
+          }
+        ]
+      }
+    },
+    {
+      "dimension": "rail",
+      "source": "artesp",
+      "status": "fresh",
+      "observedAt": "2026-10-10T08:06:00-03:00",
+      "fetchedAt": "2026-10-10T08:07:57-03:00",
+      "ttlSeconds": 360,
+      "value": {
+        "linhas": [
+          {
+            "linha": "L4",
+            "statusTexto": "Operação Normal",
+            "situacao": "NORMAL",
+            "detalhe": null,
+            "fonte": "artesp"
+          }
+        ]
+      }
+    },
+    {
+      "dimension": "flood",
+      "source": "geosampa",
+      "status": "fresh",
+      "observedAt": "2026-10-10T08:08:00-03:00",
+      "fetchedAt": "2026-10-10T08:08:00-03:00",
+      "ttlSeconds": 86400,
+      "value": {
+        "raioM": 300,
+        "pontos": []
+      }
+    }
+  ],
+  "geometria": {
+    "fonte": "osrm"
+  },
+  "atribuicoes": [
+    "Open-Meteo / CAMS",
+    "SPTrans",
+    "ARTESP (CC BY-NC 4.0)",
+    "GeoSampa",
+    "© OpenStreetMap"
+  ]
+}

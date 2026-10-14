@@ -1,0 +1,8 @@
+{
+  "trajeto": {
+    "origem": { "lat": -23.5614961, "lon": -46.6559677, "rotulo": "MASP" },
+    "destino": { "lat": -23.5503898, "lon": -46.633081, "rotulo": "Praça da Sé" },
+    "onibus": [{ "codigoLinha": 609, "letreiro": "875A-10", "codigoParada": 260016861 }],
+    "trilhos": ["L4"]
+  }
+}

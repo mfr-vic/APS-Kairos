@@ -1,0 +1,47 @@
+{
+  "briefingId": "9a7e3c41-2b6d-4f8a-8c1e-5d3f2a9b0c17",
+  "geradoEm": "2026-10-10T08:08:00-03:00",
+  "veredito": "INDETERMINADO",
+  "motivos": [],
+  "janelaMeteorologica": null,
+  "confianca": {
+    "nivel": "BAIXA",
+    "explicacao": "Clima, ônibus e trilhos indisponíveis"
+  },
+  "observacoes": [
+    {
+      "dimension": "weather",
+      "source": "open-meteo",
+      "status": "unavailable",
+      "observedAt": null,
+      "fetchedAt": null,
+      "ttlSeconds": 900,
+      "motivo": "Tempo limite de 3 s excedido",
+      "value": null
+    },
+    {
+      "dimension": "bus",
+      "source": "sptrans-olhovivo",
+      "status": "unavailable",
+      "observedAt": null,
+      "fetchedAt": null,
+      "ttlSeconds": 30,
+      "motivo": "Circuit breaker aberto",
+      "value": null
+    },
+    {
+      "dimension": "rail",
+      "source": "artesp",
+      "status": "unavailable",
+      "observedAt": null,
+      "fetchedAt": null,
+      "ttlSeconds": 360,
+      "motivo": "Tempo limite de 3 s excedido",
+      "value": null
+    }
+  ],
+  "geometria": {
+    "fonte": "linha-reta"
+  },
+  "atribuicoes": []
+}
