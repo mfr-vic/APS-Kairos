@@ -1,0 +1,15 @@
+{
+  "rota": "/status/",
+  "http": 200,
+  "ms": 141,
+  "capturadoEm": "2026-10-13T18:04:40.580Z",
+  "cabecalhos": {
+    "content-type": "application/json",
+    "x-ratelimit-limit": "12",
+    "x-ratelimit-remaining": "10",
+    "x-data-license": "CC-BY-NC-4.0",
+    "link": "<https://ccm.artesp.sp.gov.br/termos-de-uso-das-apis>; rel=\"license\"",
+    "x-api-terms-version": "1",
+    "date": "Tue, 13 Oct 2026 18:04:40 GMT"
+  }
+}

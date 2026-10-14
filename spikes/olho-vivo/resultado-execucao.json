@@ -1,0 +1,170 @@
+{
+  "resumo": {
+    "inicio": "2026-10-10 08:07:09 (America/Sao_Paulo)",
+    "semSessao": {
+      "status": 401,
+      "contentType": "application/json; charset=utf-8",
+      "corpo": "{\"Message\":\"Authorization has been denied for this request.\"}"
+    },
+    "login": {
+      "status": 200,
+      "corpo": "true",
+      "nomesCookies": [
+        "apiCredentials"
+      ],
+      "atributosCookies": [
+        "path,HttpOnly,SameSite"
+      ]
+    },
+    "previsao": {
+      "linha": {
+        "cl": 609,
+        "lt": "875A",
+        "tl": 10,
+        "sl": 1
+      },
+      "parada": {
+        "cp": 260016861,
+        "np": "CAIO PRADO B/C"
+      },
+      "hr": "08:07",
+      "veiculos": 2
+    },
+    "previsaoParada": {
+      "hr": "08:07",
+      "linhas": 15,
+      "veiculos": 31
+    },
+    "kmz": [
+      {
+        "nome": "kmz",
+        "status": 500,
+        "bytes": 36,
+        "contentType": "application/json; charset=utf-8",
+        "assinaturaHex": "7b224d65",
+        "ehZip": false,
+        "arquivo": null
+      },
+      {
+        "nome": "kmz-corredor",
+        "status": 500,
+        "bytes": 36,
+        "contentType": "application/json; charset=utf-8",
+        "assinaturaHex": "7b224d65",
+        "ehZip": false,
+        "arquivo": null
+      },
+      {
+        "nome": "kmz-outrasvias",
+        "status": 500,
+        "bytes": 36,
+        "contentType": "application/json; charset=utf-8",
+        "assinaturaHex": "7b224d65",
+        "ehZip": false,
+        "arquivo": null
+      }
+    ],
+    "fim": "2026-10-10 08:10:11 (America/Sao_Paulo)"
+  },
+  "medicoes": [
+    {
+      "nome": "sem-sessao",
+      "metodo": "GET",
+      "endpoint": "/Linha/Buscar?termosBusca=875A",
+      "quando": "2026-10-10 08:07:10 (America/Sao_Paulo)",
+      "latenciaMs": 771,
+      "status": 401,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 61,
+      "erro": null
+    },
+    {
+      "nome": "login",
+      "metodo": "POST",
+      "endpoint": "/Login/Autenticar?token=***",
+      "quando": "2026-10-10 08:07:10 (America/Sao_Paulo)",
+      "latenciaMs": 396,
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 4,
+      "erro": null
+    },
+    {
+      "nome": "linhas",
+      "metodo": "GET",
+      "endpoint": "/Linha/Buscar?termosBusca=875A",
+      "quando": "2026-10-10 08:07:10 (America/Sao_Paulo)",
+      "latenciaMs": 49,
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 167,
+      "erro": null
+    },
+    {
+      "nome": "paradas",
+      "metodo": "GET",
+      "endpoint": "/Parada/BuscarParadasPorLinha?codigoLinha=609",
+      "quando": "2026-10-10 08:07:10 (America/Sao_Paulo)",
+      "latenciaMs": 43,
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 712,
+      "erro": null
+    },
+    {
+      "nome": "previsao",
+      "metodo": "GET",
+      "endpoint": "/Previsao?codigoParada=260016861&codigoLinha=609",
+      "quando": "2026-10-10 08:07:10 (America/Sao_Paulo)",
+      "latenciaMs": 49,
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 442,
+      "erro": null
+    },
+    {
+      "nome": "previsao-parada",
+      "metodo": "GET",
+      "endpoint": "/Previsao/Parada?codigoParada=260016861",
+      "quando": "2026-10-10 08:07:10 (America/Sao_Paulo)",
+      "latenciaMs": 47,
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 5635,
+      "erro": null
+    },
+    {
+      "nome": "kmz",
+      "metodo": "GET",
+      "endpoint": "/KMZ",
+      "quando": "2026-10-10 08:08:10 (America/Sao_Paulo)",
+      "latenciaMs": 60060,
+      "status": 500,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 36,
+      "erro": null
+    },
+    {
+      "nome": "kmz-corredor",
+      "metodo": "GET",
+      "endpoint": "/KMZ/Corredor",
+      "quando": "2026-10-10 08:09:11 (America/Sao_Paulo)",
+      "latenciaMs": 60415,
+      "status": 500,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 36,
+      "erro": null
+    },
+    {
+      "nome": "kmz-outrasvias",
+      "metodo": "GET",
+      "endpoint": "/KMZ/OutrasVias",
+      "quando": "2026-10-10 08:10:11 (America/Sao_Paulo)",
+      "latenciaMs": 60401,
+      "status": 500,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 36,
+      "erro": null
+    }
+  ]
+}

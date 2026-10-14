@@ -1,0 +1,37 @@
+{
+  "capturadoEm": "2026-10-10 08:07:16 (America/Sao_Paulo)",
+  "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=-23.5503898&lon=-46.633081&zoom=18",
+  "resposta": {
+    "place_id": 8891349,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 6579501095,
+    "lat": "-23.5503070",
+    "lon": "-46.6332494",
+    "category": "tourism",
+    "type": "artwork",
+    "place_rank": 30,
+    "importance": 0.00007861829556720863,
+    "addresstype": "tourism",
+    "name": "Abertura",
+    "display_name": "Abertura, Rua Santa Teresa, Glicério, Sé, São Paulo, Região Sudeste, 01016-020, Brasil",
+    "address": {
+      "tourism": "Abertura",
+      "road": "Rua Santa Teresa",
+      "suburb": "Glicério",
+      "city": "São Paulo",
+      "state": "São Paulo",
+      "ISO3166-2-lvl4": "BR-SP",
+      "region": "Região Sudeste",
+      "postcode": "01016-020",
+      "country": "Brasil",
+      "country_code": "br"
+    },
+    "boundingbox": [
+      "-23.5503570",
+      "-23.5502570",
+      "-46.6332994",
+      "-46.6331994"
+    ]
+  }
+}

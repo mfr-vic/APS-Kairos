@@ -1,0 +1,77 @@
+{
+  "fonte": "https://www.metro.sp.gov.br/wp-content/themes/metrosp/direto-metro.php?embed=1",
+  "coletado_em": "2026-10-10T11:09:42.522Z",
+  "coletado_em_sp": "10/10/2026, 08:09:42",
+  "http_status": 200,
+  "linhas_rf21_presentes": [
+    "1",
+    "2",
+    "3",
+    "15"
+  ],
+  "linhas": [
+    {
+      "numero": "1",
+      "nome": "Azul",
+      "situacao": "Operação Normal",
+      "operadora_ou_titulo": "Metrô",
+      "descricao": "Situação Normal",
+      "atualizado_em": "10/10/2026 08:08:24",
+      "cor_indicador": "#00E000"
+    },
+    {
+      "numero": "2",
+      "nome": "Verde",
+      "situacao": "Operação Normal",
+      "operadora_ou_titulo": "Metrô",
+      "descricao": "Situação Normal",
+      "atualizado_em": "10/10/2026 08:08:24",
+      "cor_indicador": "#00E000"
+    },
+    {
+      "numero": "3",
+      "nome": "Vermelha",
+      "situacao": "Operação Normal",
+      "operadora_ou_titulo": "Metrô",
+      "descricao": "Situação Normal",
+      "atualizado_em": "10/10/2026 08:08:24",
+      "cor_indicador": "#00E000"
+    },
+    {
+      "numero": "4",
+      "nome": "Amarela",
+      "situacao": "Operação Normal",
+      "operadora_ou_titulo": "ViaQuatro",
+      "descricao": "Operação Normal",
+      "atualizado_em": "10/10/2026 08:08",
+      "cor_indicador": "#00E000"
+    },
+    {
+      "numero": "5",
+      "nome": "Lilás",
+      "situacao": "Operação Normal",
+      "operadora_ou_titulo": "ViaMobilidade",
+      "descricao": "Operação Normal",
+      "atualizado_em": "10/10/2026 08:08:26",
+      "cor_indicador": "#00E000"
+    },
+    {
+      "numero": "15",
+      "nome": "Prata",
+      "situacao": "Operação Normal",
+      "operadora_ou_titulo": "Metrô",
+      "descricao": "Situação Normal",
+      "atualizado_em": "10/10/2026 08:08:24",
+      "cor_indicador": "#00E000"
+    },
+    {
+      "numero": "17",
+      "nome": "Ouro",
+      "situacao": "Operação Transitória",
+      "operadora_ou_titulo": "Operação Transitória",
+      "descricao": "Operação transitória das 6h às 22h de segunda a sábado.",
+      "atualizado_em": "10/10/2026 06:00:24",
+      "cor_indicador": "#FFFFFF"
+    }
+  ]
+}

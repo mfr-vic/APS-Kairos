@@ -1,0 +1,100 @@
+{
+  "fusoHorario": "America/Sao_Paulo",
+  "tentativas": [
+    {
+      "quando": "2026-10-10 08:08:10",
+      "path": "/KMZ",
+      "status": 500,
+      "ms": 60060,
+      "bytes": 36,
+      "contentType": "application/json; charset=utf-8",
+      "origem": "spike.mjs"
+    },
+    {
+      "quando": "2026-10-10 08:09:11",
+      "path": "/KMZ/Corredor",
+      "status": 500,
+      "ms": 60415,
+      "bytes": 36,
+      "contentType": "application/json; charset=utf-8",
+      "origem": "spike.mjs"
+    },
+    {
+      "quando": "2026-10-10 08:10:11",
+      "path": "/KMZ/OutrasVias",
+      "status": 500,
+      "ms": 60401,
+      "bytes": 36,
+      "contentType": "application/json; charset=utf-8",
+      "origem": "spike.mjs"
+    },
+    {
+      "quando": "2026-10-10 08:11:58",
+      "path": "/KMZ/Corredor/BC",
+      "status": 500,
+      "ms": 60369,
+      "bytes": 36,
+      "contentType": "application/json; charset=utf-8",
+      "assinaturaHex": "7b224d65",
+      "ehZip": false,
+      "origem": "kmz-retry.mjs"
+    },
+    {
+      "quando": "2026-10-10 08:13:45",
+      "path": "/KMZ/BC",
+      "status": 200,
+      "ms": 107081,
+      "bytes": 93133,
+      "contentType": "application/vnd.google-earth.kmz",
+      "assinaturaHex": "504b0304",
+      "ehZip": true,
+      "origem": "kmz-retry.mjs"
+    },
+    {
+      "quando": "2026-10-10 08:23:09",
+      "path": "C:/Program Files/Git/KMZ",
+      "status": 400,
+      "ms": 397,
+      "bytes": 4428,
+      "contentType": "text/html; charset=utf-8",
+      "assinaturaHex": "3c21444f",
+      "ehZip": false,
+      "origem": "kmz-retry.mjs",
+      "descartada": "argumento corrompido pela conversao de caminhos do Git Bash (MSYS); nao reflete a API"
+    },
+    {
+      "quando": "2026-10-10 08:23:09",
+      "path": "C:/Program Files/Git/KMZ/OutrasVias/BC",
+      "status": 400,
+      "ms": 44,
+      "bytes": 4428,
+      "contentType": "text/html; charset=utf-8",
+      "assinaturaHex": "3c21444f",
+      "ehZip": false,
+      "origem": "kmz-retry.mjs",
+      "descartada": "argumento corrompido pela conversao de caminhos do Git Bash (MSYS); nao reflete a API"
+    },
+    {
+      "quando": "2026-10-10 08:24:30",
+      "path": "/KMZ",
+      "status": 500,
+      "ms": 60367,
+      "bytes": 36,
+      "contentType": "application/json; charset=utf-8",
+      "assinaturaHex": "7b224d65",
+      "ehZip": false,
+      "origem": "kmz-retry.mjs"
+    },
+    {
+      "quando": "2026-10-10 08:25:31",
+      "path": "/KMZ/OutrasVias/BC",
+      "status": 500,
+      "ms": 60426,
+      "bytes": 36,
+      "contentType": "application/json; charset=utf-8",
+      "assinaturaHex": "7b224d65",
+      "ehZip": false,
+      "origem": "kmz-retry.mjs"
+    }
+  ]
+}

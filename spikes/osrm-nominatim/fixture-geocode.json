@@ -1,0 +1,226 @@
+{
+  "capturadoEm": "2026-10-10 08:06:52 (America/Sao_Paulo)",
+  "urls": [
+    "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Avenida%20Paulista%2C%201578%2C%20S%C3%A3o%20Paulo&countrycodes=br&viewbox=-46.83,-23.35,-46.36,-24.01&bounded=1&limit=5",
+    "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Pra%C3%A7a%20da%20S%C3%A9%2C%20S%C3%A3o%20Paulo&countrycodes=br&viewbox=-46.83,-23.35,-46.36,-24.01&bounded=1&limit=5",
+    "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Esta%C3%A7%C3%A3o%20da%20Luz%2C%20S%C3%A3o%20Paulo&countrycodes=br&viewbox=-46.83,-23.35,-46.36,-24.01&bounded=1&limit=5"
+  ],
+  "respostas": {
+    "Avenida Paulista, 1578, São Paulo": [
+      {
+        "place_id": 9039726,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1370081491,
+        "lat": "-23.5614961",
+        "lon": "-46.6559677",
+        "category": "tourism",
+        "type": "museum",
+        "place_rank": 30,
+        "importance": 0.49824399872943365,
+        "addresstype": "tourism",
+        "name": "Museu de Arte de São Paulo",
+        "display_name": "Museu de Arte de São Paulo, 1578, Avenida Paulista, Cerqueira César, Bela Vista, São Paulo, Região Sudeste, 01310-200, Brasil",
+        "boundingbox": [
+          "-23.5618152",
+          "-23.5611808",
+          "-46.6563185",
+          "-46.6556147"
+        ]
+      },
+      {
+        "place_id": 8960179,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 4700173716,
+        "lat": "-23.5615777",
+        "lon": "-46.6557115",
+        "category": "highway",
+        "type": "elevator",
+        "place_rank": 30,
+        "importance": 0.00007861829556720863,
+        "addresstype": "highway",
+        "name": "",
+        "display_name": "1578, Avenida Paulista, Morro dos Ingleses, Bela Vista, São Paulo, Região Sudeste, 01310-200, Brasil",
+        "boundingbox": [
+          "-23.5616277",
+          "-23.5615277",
+          "-46.6557615",
+          "-46.6556615"
+        ]
+      }
+    ],
+    "Praça da Sé, São Paulo": [
+      {
+        "place_id": 8973256,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 75488634,
+        "lat": "-23.5503898",
+        "lon": "-46.6330810",
+        "category": "leisure",
+        "type": "park",
+        "place_rank": 24,
+        "importance": 0.46016444483284774,
+        "addresstype": "park",
+        "name": "Praça da Sé",
+        "display_name": "Praça da Sé, Glicério, Sé, São Paulo, Região Sudeste, 01001-000, Brasil",
+        "boundingbox": [
+          "-23.5517242",
+          "-23.5491629",
+          "-46.6342888",
+          "-46.6319455"
+        ]
+      },
+      {
+        "place_id": 8977225,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 8103459,
+        "lat": "-23.5511530",
+        "lon": "-46.6340118",
+        "category": "highway",
+        "type": "living_street",
+        "place_rank": 26,
+        "importance": 0.05341195162890055,
+        "addresstype": "road",
+        "name": "Praça da Sé",
+        "display_name": "Praça da Sé, Glicério, Sé, São Paulo, Região Sudeste, 01001-010, Brasil",
+        "boundingbox": [
+          "-23.5519876",
+          "-23.5505721",
+          "-46.6344161",
+          "-46.6338710"
+        ]
+      },
+      {
+        "place_id": 8953378,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 426247930,
+        "lat": "-23.5495618",
+        "lon": "-46.6338657",
+        "category": "highway",
+        "type": "primary",
+        "place_rank": 26,
+        "importance": 0.05341195162890055,
+        "addresstype": "road",
+        "name": "Praça da Sé",
+        "display_name": "Praça da Sé, Glicério, Sé, São Paulo, Região Sudeste, 01001-001, Brasil",
+        "boundingbox": [
+          "-23.5500724",
+          "-23.5490354",
+          "-46.6341114",
+          "-46.6336570"
+        ]
+      },
+      {
+        "place_id": 8962623,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 262851665,
+        "lat": "-23.5513049",
+        "lon": "-46.6347145",
+        "category": "highway",
+        "type": "primary",
+        "place_rank": 26,
+        "importance": 0.05341195162890055,
+        "addresstype": "road",
+        "name": "Praça da Sé",
+        "display_name": "Praça da Sé, Glicério, Sé, São Paulo, Região Sudeste, 01501-001, Brasil",
+        "boundingbox": [
+          "-23.5517667",
+          "-23.5508420",
+          "-46.6349430",
+          "-46.6344880"
+        ]
+      },
+      {
+        "place_id": 8966748,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 237455906,
+        "lat": "-23.5492329",
+        "lon": "-46.6334182",
+        "category": "highway",
+        "type": "primary",
+        "place_rank": 26,
+        "importance": 0.05341195162890055,
+        "addresstype": "road",
+        "name": "Praça da Sé",
+        "display_name": "Praça da Sé, Glicério, Sé, São Paulo, Região Sudeste, 01016-030, Brasil",
+        "boundingbox": [
+          "-23.5494387",
+          "-23.5490354",
+          "-46.6336570",
+          "-46.6331864"
+        ]
+      }
+    ],
+    "Estação da Luz, São Paulo": [
+      {
+        "place_id": 429776621,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 8105832,
+        "lat": "-23.5351161",
+        "lon": "-46.6353906",
+        "category": "railway",
+        "type": "station",
+        "place_rank": 30,
+        "importance": 0.46737209724776524,
+        "addresstype": "railway",
+        "name": "Estação da Luz",
+        "display_name": "Estação da Luz, 1, Praça da Luz, Bairro da Luz, Bom Retiro, São Paulo, Região Sudeste, 01120-010, Brasil",
+        "boundingbox": [
+          "-23.5355523",
+          "-23.5346544",
+          "-46.6361584",
+          "-46.6345167"
+        ]
+      },
+      {
+        "place_id": 8993085,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 4275459545,
+        "lat": "-23.5366037",
+        "lon": "-46.6333889",
+        "category": "railway",
+        "type": "subway_entrance",
+        "place_rank": 30,
+        "importance": 0.00007861829556720863,
+        "addresstype": "railway",
+        "name": "Estação da Luz",
+        "display_name": "Estação da Luz, 936, Avenida Prestes Maia, Glicério, Sé, São Paulo, Região Sudeste, 01031-000, Brasil",
+        "boundingbox": [
+          "-23.5366537",
+          "-23.5365537",
+          "-46.6334389",
+          "-46.6333389"
+        ]
+      },
+      {
+        "place_id": 9009017,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 4275459543,
+        "lat": "-23.5380650",
+        "lon": "-46.6335305",
+        "category": "railway",
+        "type": "subway_entrance",
+        "place_rank": 30,
+        "importance": 0.00007861829556720863,
+        "addresstype": "railway",
+        "name": "Estação da Luz",
+        "display_name": "Estação da Luz, 778, Avenida Prestes Maia, Glicério, Sé, São Paulo, Região Sudeste, 01031-000, Brasil",
+        "boundingbox": [
+          "-23.5381150",
+          "-23.5380150",
+          "-46.6335805",
+          "-46.6334805"
+        ]
+      }
+    ]
+  }
+}

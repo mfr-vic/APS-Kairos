@@ -1,0 +1,111 @@
+{
+  "type": "FeatureCollection",
+  "note": "Amostra real do WFS GeoSampa geoportal:risco_ocorrencia_alagamento, transformada de EPSG:31983 para EPSG:4326 via PostGIS ST_Transform. sha256 da fonte: 6b5f4c4331002a75dba0e0e8820ee2336023787d622b094346147ecbae83e43e",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.702602,
+          -23.819657
+        ]
+      },
+      "properties": {
+        "cd_identificador": "19",
+        "dt_ocorrencia": "2026-01-04",
+        "dc_tipo_ocorrencia": "ALAGAMENTO",
+        "nm_distrito": null,
+        "nm_subprefeitura": "PA - PARELHEIROS",
+        "sg_fonte_original": "SIGRC",
+        "dt_carga": "2026-10-06",
+        "utm_x": 326568.733,
+        "utm_y": 7364698.818
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.702602,
+          -23.819656
+        ]
+      },
+      "properties": {
+        "cd_identificador": "28",
+        "dt_ocorrencia": "2026-01-05",
+        "dc_tipo_ocorrencia": "ALAGAMENTO",
+        "nm_distrito": null,
+        "nm_subprefeitura": "PA - PARELHEIROS",
+        "sg_fonte_original": "SIGRC",
+        "dt_carga": "2026-10-06",
+        "utm_x": 326568.731,
+        "utm_y": 7364698.94
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.702627,
+          -23.8195
+        ]
+      },
+      "properties": {
+        "cd_identificador": "30",
+        "dt_ocorrencia": "2026-01-05",
+        "dc_tipo_ocorrencia": "ALAGAMENTO",
+        "nm_distrito": null,
+        "nm_subprefeitura": "PA - PARELHEIROS",
+        "sg_fonte_original": "SIGRC",
+        "dt_carga": "2026-10-06",
+        "utm_x": 326565.946,
+        "utm_y": 7364716.218
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.77596,
+          -23.740808
+        ]
+      },
+      "properties": {
+        "cd_identificador": "65",
+        "dt_ocorrencia": "2026-01-08",
+        "dc_tipo_ocorrencia": "ALAGAMENTO",
+        "nm_distrito": null,
+        "nm_subprefeitura": "MB - MBOI MIRIM",
+        "sg_fonte_original": "SIGRC",
+        "dt_carga": "2026-10-06",
+        "utm_x": 318985.537,
+        "utm_y": 7373339.465
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.41415,
+          -23.58583
+        ]
+      },
+      "properties": {
+        "cd_identificador": "72",
+        "dt_ocorrencia": "2026-01-08",
+        "dc_tipo_ocorrencia": "ALAGAMENTO",
+        "nm_distrito": null,
+        "nm_subprefeitura": "CT - CIDADE TIRADENTES",
+        "sg_fonte_original": "SIGRC",
+        "dt_carga": "2026-10-06",
+        "utm_x": 355698.691,
+        "utm_y": 7390913.923
+      }
+    }
+  ]
+}

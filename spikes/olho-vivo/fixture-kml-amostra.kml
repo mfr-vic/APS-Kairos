@@ -1,0 +1,53 @@
+<!-- Amostra de TBC.kml extraído de kmz-bc.kmz (GET /v2.1/KMZ/BC, 2026-10-10 08:13 America/Sao_Paulo). Primeiro Placemark apenas; KML completo: 674355 bytes, 322 Placemarks em 127 Folders. -->
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document xmlns="">
+    <Style id="0">
+      <LineStyle>
+        <color>ffc0c0c0</color>
+        <width>4.0</width>
+      </LineStyle>
+    </Style>
+    <Style id="3">
+      <LineStyle>
+        <color>ff009900</color>
+        <width>4.0</width>
+      </LineStyle>
+    </Style>
+    <Style id="2">
+      <LineStyle>
+        <color>ff00CDFF</color>
+        <width>4.0</width>
+      </LineStyle>
+    </Style>
+    <Style id="1">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>4.0</width>
+      </LineStyle>
+    </Style>
+    <Folder xmlns="http://www.opengis.net/kml/2.2">
+      <name xmlns="">Corredor PARELHEIROS-RIO BONITO-SANTO AMARO (BAIRRO - CENTRO)</name>
+      <description></description>
+      <Placemark eBC="8,4">
+        <name>Corredor PARELHEIROS-RIO BONITO-SANTO AMARO (BAIRRO - CENTRO)</name>
+        <description>&lt;div&gt;&lt;b&gt;Trecho:&lt;/b&gt; de T PARELHEIROS até T VARGINHA&lt;br/&gt;&lt;b&gt;Referência:&lt;/b&gt; AV. SADAMU INOUE&lt;br/&gt;&lt;b&gt;Extensão (metros):&lt;/b&gt; 0&lt;br/&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;Velocidade média do trecho&lt;/b&gt; &lt;div style='background-color:#c0c0c0;color:#fff'&gt;--&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Velocidade média do corredor: &lt;b&gt;--&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+        <visibility>1</visibility>
+        <open>0</open>
+        <LineString>
+          <extrude>1</extrude>
+          <altitudeMode>clampToGround</altitudeMode>
+          <tessellate>1</tessellate>
+          <coordinates>
+      -46.717208,-23.767495,0
+      -46.717241,-23.767882,0
+      -46.717402,-23.768524,0
+      -46.7175,-23.768929,0
+      -46.717624,-23.769341,0
+      <!-- ... 246 pontos omitidos na amostra ... -->
+        </coordinates>
+        </LineString>
+        <styleUrl xmlns="">#0</styleUrl>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
