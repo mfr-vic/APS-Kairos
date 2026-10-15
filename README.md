@@ -806,7 +806,7 @@ pacote. Os testes de integração do PostGIS são pulados se o banco não estive
 | TC24 | RF19 | Ativar cada cenário; depois `DEMO_MODE=false` | Veredito conforme o cenário; 404 com o modo desligado | Testes dos cenários e das rotas |
 | TC25 | RNF04 | Descompactar o `.apk` e procurar os segredos | 0 ocorrências | **0 ocorrências** (14/10/2026) |
 | TC26 | RNF05 | `eas build -p android --profile preview` | `.apk` válido | **Build concluído** (14/10/2026) |
-| TC27 | RNF05 | Instalar o `.apk` e executar o TC06 | Fluxo completo sem erro | **Pendente** para a versão 0.5.0 |
+| TC27 | RNF05 | Instalar o `.apk` e executar o TC06 | Fluxo completo sem erro | **Fluxo completo no celular**, confirmado pelo grupo (15/10/2026) |
 | TC28 | RNF06 | `docker compose up`; `docker stats` | RAM total ≤ 2 GB | **127 MiB** (14/10/2026) |
 | TC29 | RF24 | (a) OSRM real; (b) OSRM bloqueado | (a) `osrm`; (b) `linha-reta` e 200 | Testes do serviço de geometria |
 | TC30 | RNF11 | Abrir "Sobre" e o rodapé do briefing | Todas as atribuições | Testes do app |
@@ -831,11 +831,13 @@ Só entra aqui o que foi executado e registrado.
 | 14/10/2026 | Suítes | contracts 19 testes; API 55 arquivos / 498 testes; app 105 suítes / 562 testes; lint, typecheck e `expo-doctor` (21/21) ok |
 | 14/10/2026 | TC31 (30 briefings, cache quente) | p95 = 387 ms |
 | 14/10/2026 | TC28 | 127 MiB |
-| 14/10/2026 | Build EAS do `.apk` 0.5.0 (versionCode 1) | Concluído; 100 MB (4 ABIs), bundle JS de 3,6 MB |
-| 14/10/2026 | TC25 no `.apk` 0.5.0 | 1.296 arquivos varridos contra 7 segredos do `.env`: 0 ocorrências |
+| 14/10/2026 | Suítes (versão final) | contracts 19 testes; API 564 testes (+1 pulado sem o Valkey); app 120 suítes / 625 testes; build, lint e typecheck ok |
+| 14/10/2026 | Reprodução a partir de cópia limpa (`.env.example` sem chaves, banco novo) | Compose ok; importação de 292 pontos, idempotente; briefing FAVORÁVEL/BAIXA com tempo, ar, alagamento e Metrô `fresh` |
+| 14/10/2026 | Build EAS do `.apk` final (`kairos.apk`, versionCode 2) | Concluído; 100,1 MB (4 ABIs), bundle JS de 3,8 MB |
+| 14/10/2026 | TC25 no `.apk` final | 1.296 arquivos varridos contra 7 segredos do `.env`: 0 ocorrências |
+| 15/10/2026 | TC27 no celular (`.apk` final) | Fluxo completo funcionando, confirmado pelo grupo |
 
-O `.apk` 0.5.0 ainda não foi instalado e usado em aparelho (TC27). As correções de navegação e
-toque feitas em 13/10/2026 foram verificadas só por testes e capturas web.
+O `.apk` final foi instalado e usado no celular do grupo (TC27, 15/10/2026).
 
 ---
 
@@ -1016,7 +1018,6 @@ Os comentários do código citam as tarefas em que cada parte nasceu.
 - **Dados não comerciais:** ARTESP (CC BY-NC 4.0) e o plano gratuito da Open-Meteo; publicar o app
   numa loja exige rever as licenças e ter uma API pública (o perfil `production` do EAS ainda aponta
   para a rede local).
-- **Verificação em aparelho pendente** para o `.apk` 0.5.0 (TC27).
 
 **Trabalho futuro**
 - Estado por linha de trilho "sem fonte", com motivo, mostrado no app (B.11).
